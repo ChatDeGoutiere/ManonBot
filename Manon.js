@@ -5,7 +5,7 @@ const weather = require('weather-js');
 
 var prefix = "m!"
 
-client.login("NDYwNDM2Njk3ODg5Mzc0MjM4.DhEvqg.gV043XoH6s7uAYjDIdEJcSX2_Mw");
+client.login(process.env.TOKEN);
 
 
 client.on('ready', function() {
